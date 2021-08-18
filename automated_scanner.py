@@ -28,7 +28,7 @@ duty3 = 12
 
 print("Start")
 
-#fliping position of camera to get a properly orientated image
+#flipping position of camera to get a properly orientated image
 camera.vflip = True
 camera.hflip = True
 camera.resolution = (2592, 1944)
@@ -79,7 +79,7 @@ servo1.ChangeDutyCycle(0)
 
 
 
-#stoping the servos
+#stopping the servos
 servo1.stop()
 servo2.stop()
 GPIO.cleanup()
